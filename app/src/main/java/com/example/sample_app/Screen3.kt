@@ -15,11 +15,11 @@ fun ThirdScreen(navController: NavController) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(text = "Screen 1")
+        Text(text = "Screen 3")
         Button(onClick = {
-            navController.navigate("third")
+            navController.navigate("first")
         }) {
-            Text(text = "Go to Screen 2")
+            Text(text = "Go to Screen 1")
         }
         Button(onClick = {
             navController.popBackStack()

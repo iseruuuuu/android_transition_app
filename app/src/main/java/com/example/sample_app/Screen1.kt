@@ -17,7 +17,7 @@ fun FirstScreen(navController: NavController) {
     ) {
         Text(text = "Screen 1")
         Button(onClick = {
-            navController.navigate("third")
+            navController.navigate("second")
         }) {
             Text(text = "Go to Screen 2")
         }
