@@ -1,15 +1,18 @@
 package com.example.sample_app
 
-//import FirstScreen
-//import SecondScreen
-//import ThirdScreen
+import FirstScreen
+import SecondScreen
+import ThirdScreen
 
+//import com.example.sample_app.FirstScreen
+//import com.example.sample_app.SecondScreen
+//import com.example.sample_app.ThirdScreen
 
+import androidx.navigation.compose.composable
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 
 class MainActivity : ComponentActivity() {
