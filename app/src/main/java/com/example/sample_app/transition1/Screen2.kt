@@ -1,3 +1,5 @@
+package com.example.sample_app.transition1
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,18 +11,19 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 
 @Composable
-fun FirstScreen(navController: NavController) {
+fun SecondScreen(navController: NavController) {
     Column(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(text = "Screen 1")
+        Text(text = "Screen 2")
         Button(onClick = {
-            navController.navigate("second")
+            navController.navigate("third")
         }) {
-            Text(text = "Go to Screen 2")
+            Text(text = "Go to Screen 3")
         }
+
         Button(onClick = {
             navController.popBackStack()
         }) {

@@ -1,3 +1,5 @@
+package com.example.sample_app.transition1
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
